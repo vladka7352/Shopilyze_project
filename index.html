@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopilyze - Ваша бізнес сторінка</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="logo">Shopilyze</div>
+          <div class="header__nav">
+            <button class="add-btn">Додати оголошення</button>
+            <form class="header_search_form">
+              <div class="header_search">
+                <input
+                  class="header_search__input"
+                  type="search"
+                  placeholder="Пошук..."
+                />
+              </div>
+            </form>
+            <div class="custom-select"></div>
+            <select class="language-select" autofocus>
+              <option disabled="disabled" selected="selected">UA</option>
+              <option>UK</option>
+              <option>IT</option>
+              <option>DE</option>
+            </select>
+          </div>
+          <div class="icon-bar">
+            <div class="icon">
+              <img src="./icons/Icon_main_storege.svg" alt="" />
+            </div>
+            <span class="icon">
+              <img src="./icons/Icon_main.svg" alt="" />
+            </span>
+            <span class="icon">
+              <img src="./icons/Icon_Profile.svg" alt="" />
+            </span>
+          </div>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <div class="products_descr">
+          <div class="products_descr_head">
+            <div class="products_descr_head_w">
+              <h1>Ваша бізнес сторінка</h1>
+            </div>
+            <div class="products_descr_icon" id="chatIcon">
+              <img src="./icons/Icon_main_chat.svg" alt="" />
+              <span>Чати</span>
+            </div>
+            <div class="chat-window" id="chatWindow">
+              <div class="chat-header">Чат</div>
+              <div class="chat-body">Напишіть нам ваше запитання!</div>
+              <div class="chat-footer">
+                <input type="text" placeholder="Введіть повідомлення" />
+                <button>Надіслати</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="products-list">
+            <div class="product">
+              <img src="./images/Picture1.jpg" alt="Iphone 15 pro 1tb" />
+              <div class="product-info">
+                <h2>Iphone 15 pro 1tb</h2>
+                <div class="product-info_descr">
+                  <div>
+                    <p>Мобильные телефоны и аксессуары</p>
+                    <p>ID: 123456789</p>
+                  </div>
+                  <p>05.09.2024</p>
+                </div>
+              </div>
+
+              <div class="product-actions">
+                <div class="product-price">56 099</div>
+                <div class="action-button">
+                  <button>Редактировать</button>
+                  <button>Удалить</button>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="./images/Picture2.jpg" alt="Iphone 15 pro 1tb" />
+              <div class="product-info">
+                <h2>Iphone 15 pro 1tb</h2>
+                <div class="product-info_descr">
+                  <div>
+                    <p>Мобильные телефоны и аксессуары</p>
+                    <p>ID: 123456789</p>
+                  </div>
+                  <p>05.09.2024</p>
+                </div>
+              </div>
+
+              <div class="product-actions">
+                <div class="product-price">56 099</div>
+                <div class="action-button">
+                  <button>Редактировать</button>
+                  <button>Удалить</button>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div>
+                <img src="./images/Picture3.jpg" alt="Iphone 15 pro 1tb" />
+              </div>
+              <div class="product-info">
+                <h2>Iphone 15 pro 1tb</h2>
+                <div class="product-info_descr">
+                  <div>
+                    <p>Мобильные телефоны и аксессуары</p>
+                    <p>ID: 123456789</p>
+                  </div>
+                  <p>05.09.2024</p>
+                </div>
+              </div>
+
+              <div class="product-actions">
+                <div class="product-price">56 099</div>
+                <div class="action-button">
+                  <button>Редактировать</button>
+                  <button>Удалить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="pagination">
+        <button class="page active">1</button>
+        <button class="page">2</button>
+        <button class="page">3</button>
+        <button class="page">4</button>
+        <button class="page">5</button>
+        <span class="dots">...</span>
+        <button class="page">40</button>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__wrapper">
+          <div class="footer__descr">
+            <div class="footer__logo_w">
+              <div class="footer-logo">Shopilyze</div>
+            </div>
+            <div class="footer-container">
+              <div class="footer-columns">
+                <div class="footer-column">
+                  <h3>Страницы</h3>
+                  <ul>
+                    <li>Компьютеры и Аксессуары</li>
+                    <li>Комплектующие</li>
+                    <li>Сетевое оборудование</li>
+                    <li>Наушники и Аксессуары</li>
+                    <li>Клавиатуры и Мыши</li>
+                  </ul>
+                </div>
+                <div class="footer-column">
+                  <h3>Помощь</h3>
+                  <ul>
+                    <li>F.A.Q</li>
+                    <li>Помощь</li>
+                    <li>Статусы</li>
+                  </ul>
+                </div>
+                <div class="footer-column">
+                  <h3>Компания</h3>
+                  <ul>
+                    <li>Про компанию</li>
+                  </ul>
+                </div>
+                <div class="footer-column">
+                  <h3>Документация</h3>
+                  <ul>
+                    <li>Cookies</li>
+                    <li>Privacy & Policy</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <p>© 2024 copyright shopilyze. Все права защищены</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
